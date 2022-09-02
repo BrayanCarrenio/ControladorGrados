@@ -10,7 +10,7 @@ firebase_admin.initialize_app(cred, {
     'databaseURL': 'https://firegrados-default-rtdb.firebaseio.com/'
 })
 
-serialArduino = serial.Serial("COM7", 9600)
+serialArduino = serial.Serial("COM15", 9600)
 
 
 
